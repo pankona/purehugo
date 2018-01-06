@@ -36,7 +36,7 @@
                             <a href="#" data-type="googleplus" data-url="{{ .Permalink }}" data-description="{{ .Description }}" class="prettySocial fa fa-google-plus"></a>
                             {{ end }}
                             {{ if isset .Site.Params "twitter" }}
-                            <a href="#" data-type="twitter" data-url="{{ .Permalink }}" data-description="{{ .Description }}" data-via="{{ .Site.Params.twitter }}" class="prettySocial fa fa-twitter"></a>
+                            <a href="#" data-type="twitter" data-url="{{ .Permalink }}" data-description="{{ .Title }} - {{ .Site.Title }}{{ .Description }}" class="prettySocial fa fa-twitter"></a>
                             {{ end }}
                             
                         </div>
