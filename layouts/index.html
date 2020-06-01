@@ -11,7 +11,7 @@
           <article>
             <!-- this <div> includes the title summary -->
             <div>
-                <div>{{ dateFormat "2006-01-02 15:04:05" .Date }}</div>
+                <div class="content-subhead" style="border-bottom:none">{{ dateFormat "2006-01-02 15:04:05" .Date }}</div>
                 <div><a href="{{ .RelPermalink }}">{{ .Title }}</a></div>
                 {{ .Summary }}
             </div>
